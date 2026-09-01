@@ -21,10 +21,6 @@ npm run build    # production build
   `border-slate-100`, glassmorphism modals with backdrop blur.
 - **Layout** — minimal left-rail sidebar + spacious content constrained to 1200px.
 
-## Key rule: no mock / hardcoded data
-
-Every record is user-entered and validated. The app **starts empty** — no seeded cases,
-documents, users, or audit entries.
 
 - **Users & sessions** — signed up or provisioned by an administrator; credentials are
   stored as real SHA-256 hashes (Web Crypto), passwords never stored in plaintext.
